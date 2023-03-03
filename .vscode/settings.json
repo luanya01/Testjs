@@ -1,0 +1,34 @@
+{
+    "editor.fontSize": 18,
+    "python.defaultInterpreterPath": "D:/IDE/workspace_python/testjs/Scripts/python.exe",
+    // "python.linting.enabled": true,
+    // "python.linting.pylintEnabled": false,
+    "terminal.integrated.profiles.windows": {
+        "Cmder": {
+            "path": "C:\\Windows\\System32\\cmd.exe",
+            "args": [
+                "/K",
+                "D:\\IDE\\cmder_mini\\vscode.bat"
+            ],
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Cmder",
+    "python.autoComplete.extraPaths": [
+        "D:/IDE/workspace_python/testjs/Lib/site-packages",
+        "D:/IDE/workspace_python/testjs/Scripts",
+    ],
+    "python.analysis.extraPaths": [
+        "D:/IDE/workspace_python/testjs/Lib/site-packages",
+        "D:/IDE/workspace_python/testjs/Scripts"
+    ],
+    "python.analysis.typeCheckingMode": "off",
+    "auto-close-tag.enableAutoCloseTag": true,
+    "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+}
